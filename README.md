@@ -13,6 +13,6 @@ Why does it run so fast? Because these codecs are designed to be very performant
 
 > Note: Use `alt + hover` to show help for certain parameters.
 
-> Tip: If you would like to rename files, do it before you select desired videos for conversion. Renaming triggers check for possible overwrites and updating each row (by adding or removing its warning icon) will deselect it.
+> Tip: If you would like to rename files, do it before you select desired videos for conversion (updating row will deselect it).
 
 ![](demo.gif)
