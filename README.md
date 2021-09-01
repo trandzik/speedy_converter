@@ -7,9 +7,12 @@ Speedy is based on concepts used in [Quick Fast Hurry HAPQ Converter](https://gi
 2. frame guarantee - each frame from input video is encoded to output video (without duplicates), resulting in equal lengths of input and output video
 3. UI for hand-picking videos for conversion (select entire folder with `ctrl + a` or pick specific videos)
 4. editing output names
+5. overwrite warnings
 
 Why does it run so fast? Because these codecs are designed to be very performant and efficient (in terms of CPU and GPU) and also because TD devs have spent tremendous time optimizing their implementation :blush:. Speedy uses philosophy of `QFH HAPQ Converter` and displays refreshed video frame in large intervals while render is running at high frame rates in the background (without overhead of drawing every frame).
 
 > Note: Use `alt + hover` to show help for certain parameters.
+
+> Tip: If you would like to rename files, do it before you select desired videos for conversion. Renaming triggers check for possible overwrites and updating each row (by adding or removing its warning icon) will deselect it.
 
 ![](demo.gif)
