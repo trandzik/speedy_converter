@@ -1,5 +1,7 @@
 # Speedy Converter
 
+*Tested with TD 2021.14360*
+
 Speedy is designed to be super fast yet simple batch video converter build using TD. It is primarily aimed at conversion to HAP, HAPQ and NotchLC codecs, but could be easily customized by diving in and exposing additional parameters for custom needs.
 
 Speedy is based on concepts used in [Quick Fast Hurry HAPQ Converter](https://github.com/EnviralDesign/Quick-Fast-Hurry-HAPQ-Converter), however with various changes made to conversion process:
